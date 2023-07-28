@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Selamat</string>
+    <string name="inital_show_count">0</string>
+    <string name="toast_message">Hello Toast</string>
+</resources>
