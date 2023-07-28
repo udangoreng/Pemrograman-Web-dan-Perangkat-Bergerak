@@ -2,5 +2,5 @@
 
 [Hello World - 26 Juli 2023](DivanandaFirstApplication)<br>
 [Hello Toast - 27 Juli 2023]<br>
-[Hello Relative - 28 Juli 2023]<br>
-[Hello Constrain- 29 Juli 2023]<br>
+[Hello Relative - 28 Juli 2023](HelloRelative)<br>
+[Hello Constraint- 29 Juli 2023](HelloConstraint)<br>
