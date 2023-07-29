@@ -1,6 +1,6 @@
 # Hello World
 
-Project ini adalah tugas pada Hari selasa 25 Juli 2023
+Project ini adalah tugas pada Hari selasa 25 Juli 2023. Project ini fokus pada pengenalan Android Studio dan menghubungkan antara handphone dan Android Studio.
 
 ## Langkah-langkah Menjalankan Physical Device Sebagai Emulator
 
