@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUp(View view) {
         mCount++;
+        //menambah nilai variable mCount
         if(mShowCount != null){
             mShowCount.setText(Integer.toString(mCount));
             //Set text pada mShowCount dengan mengubah integer mCount menjadi string
