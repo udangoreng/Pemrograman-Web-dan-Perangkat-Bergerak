@@ -8,3 +8,4 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 [Hello Relative - 28 Juli 2023](HelloRelative) | Mengenal Relative Layout<br>
 [Hello Constraint- 29 Juli 2023](HelloConstrain) | Mengenal Constraint Layout<br>
 [ScrollView- 31 Juli 2023](DivanandaScrolling) | Mengenal Elemen ScrollView<br>
+[Two Activitiesl- 1 Agustus 2023](TwoActivity) | Membuat dan Menampilkan Activity Berbeda<br>
