@@ -19,6 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         Intent intent = getIntent();
 
+        //Mendapatkan intent dari MainActicity
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = (TextView) findViewById(R.id.text_message);
         textView.setText(message);
@@ -30,7 +31,9 @@ public class SecondActivity extends AppCompatActivity {
         String reply = mReply.getText().toString();
         Intent replyIntent = new Intent();
         replyIntent.putExtra(EXTRA_REPLY, reply);
+        //Mengirimkan intent
         setResult(RESULT_OK, replyIntent);
+        //Kembali ke aktivitas sebelumnya
         finish();
     }
 }
