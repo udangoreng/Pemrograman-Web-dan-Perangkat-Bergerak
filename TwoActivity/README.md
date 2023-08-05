@@ -34,3 +34,10 @@ intent.putExtra(EXTRA_MESSAGE, message);
 Untuk mendapatkan intent dari aktivitas lain, dapat menggunakan `Intent intent = getIntent();` yang ditambahkan pada metode onCreate. Data dari intent tersebut dapat diambil dengan menggunakan `intent.getStringExtra(MainActivity.EXTRA_MESSAGE);`.
 
 Untuk menutup aktivitas dan kembali ke aktivitas utama dapat menggunakan `finish();`
+
+Mendapatkan result dari aktivitas kedua dapat didapatkan dengan mengganti `startActivity(intent);` menjadi `startActifityForResult(intent, TEXT_REQUEST);` dengan variabel TEXT_REQUEST yang diset menjadi int 1. Tambahkan metode callback dan panggil :
+```
+onActicityResult(int requestCode, int resultCode, Intent data){
+super.onActivityResult(requestCode, resultCode, data);
+}
+```
