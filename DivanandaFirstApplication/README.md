@@ -17,7 +17,7 @@ Project ini adalah tugas pada Hari selasa 25 Juli 2023. Project ini fokus pada p
 11. Run Aplikasi dengan mengklik :arrow_forward: yang biasanya terdapat di atas kanan, atau dapat juga diakses melalui Run > Run.
 12. Tunggu hingga proses selesai. Apabila proses sudah selesai, aplikasi akan secara otomatis terinstall dan terbuka di perangkat tersebut.
 
-## Penjelasan
+## Catatan
 
 <pre><code>package com.udangoreng.divanandafirstapplication;</code></pre>
 Diatas digunakan untuk mendeklarasikan suatu package

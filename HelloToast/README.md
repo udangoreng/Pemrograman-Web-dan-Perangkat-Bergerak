@@ -2,7 +2,7 @@
 
 Project ini adalah tugas pada hari Rabu, 26 Juli 2023. Project ini berfokus untuk membuat dua buah fungsi, Toast dan countUp yang digunakan untuk menampilkan suatu toast dan menambah nilai dengan menggunakan tombol.
 
-## Penjelasan
+## Catatan
 
 <pre><code>private int mCount = 0;
 private TextView mShowCount;
