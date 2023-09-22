@@ -14,6 +14,6 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 [Two Activities- 1 Agustus 2023](TwoActivity) | Membuat dan Menampilkan Activity Berbeda<br>
 [Aplikasi Bangun Ruang - 4 Agustus 2023](ProjectBangunRuang) | Aplikasi untuk menghitung Luas dan Volume Bangun Ruang Kubus<br>
 
-## Minggu 1 || 19 - 22 September 2023
+## Minggu 3 || 19 - 22 September 2023
 [Recycle and Adapter - 19 September 2023](DivanandaApplication) | Aplikasi Mengenal RecycleView dan Adapter<br>
 [Novel Lab - 20 September 2023](NovelLab) | Aplikasi List Novel<br>
