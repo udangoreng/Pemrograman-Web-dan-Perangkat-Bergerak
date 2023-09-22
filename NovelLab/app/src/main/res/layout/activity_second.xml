@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SecondActivity"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/writer_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="64dp"
+                android:text="writer"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_textView" />
+
+            <TextView
+                android:id="@+id/year_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="64dp"
+                android:text="year"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/writer_textView" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="25dp"
+                android:text="Penulis : "
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toStartOf="@+id/writer_textView"
+                app:layout_constraintHorizontal_bias="0.094"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_textView" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="25dp"
+                android:text="Tahun terbit : "
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toStartOf="@+id/year_textView"
+                app:layout_constraintHorizontal_bias="0.102"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <View
+                android:id="@+id/divLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#D3D3D3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/year_textView" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:paddingBottom="30dp"
+                android:ellipsize="end"
+                android:justificationMode="inter_word"
+                android:minWidth="70dp"
+                android:text="Description"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divLine" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
