@@ -17,3 +17,10 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 ## Minggu 3 || 19 - 22 September 2023
 [Recycle and Adapter - 19 September 2023](DivanandaApplication) | Aplikasi Mengenal RecycleView dan Adapter<br>
 [Novel Lab - 20 September 2023](NovelLab) | Aplikasi List Novel<br>
+
+## Minggu 4 || 30 Oktober - 3 November 2023
+[Saved Instance - ] | Mengenal SavedInstance <br>
+[Pokemon API - ] Menghubungkan Aplikasi dengan API <br>
+
+## Minggu 5  || 20 - 24 November 2023
+[NovelLab] | Menghubungkan Aplikasi List Novel Dengan API
