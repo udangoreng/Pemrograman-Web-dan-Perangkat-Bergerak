@@ -23,4 +23,4 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 [Pokemon API - ] Menghubungkan Aplikasi dengan API <br>
 
 ## Minggu 5  || 20 - 24 November 2023
-[NovelLab] | Menghubungkan Aplikasi List Novel Dengan API
+[NovelLab](NovelLabAPI) | Menghubungkan Aplikasi List Novel Dengan API
