@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NovelLab</string>
+    <string name="some_text"><![CDATA[For you to see the article, you need to click <a href="google.com">THIS LINK</a> after that etc...]]></string>
+</resources>
