@@ -43,12 +43,14 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
         }
     }
 
+    //Membuat Array
     private List<Pokemon> pokemons = Arrays.asList(
             new Pokemon("Ditto", 1, R.drawable.ditto),
             new Pokemon("Pikachu", 2, R.drawable.pikachu),
             new Pokemon("Bulbasaur", 3, R.drawable.bulbasaur)
     );
 
+    // Memanggil Recycle View
     @NonNull
     @Override
     public PokemonViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -56,6 +58,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
         return new PokemonViewHolder(view);
     }
 
+    // Menampilkan Array
     @Override
     public void onBindViewHolder(@NonNull PokemonViewHolder holder, int position) {
         Pokemon current = pokemons.get(position);
@@ -63,6 +66,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
         holder.containerView.setTag(current);
     }
 
+    // Menghitung Jumlah Data dalam Array
     @Override
     public int getItemCount() {
         return pokemons.size();
