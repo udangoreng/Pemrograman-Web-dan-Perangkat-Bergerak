@@ -19,8 +19,8 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 [Novel Lab - 20 September 2023](NovelLab) | Aplikasi List Novel<br>
 
 ## Minggu 4 || 30 Oktober - 3 November 2023
-[Saved Instance - ] | Mengenal SavedInstance <br>
-[Pokemon API - ] Menghubungkan Aplikasi dengan API <br>
+[Saved Instance - 30 Oktober 2023](DivanandaSavedInstance) | Mengenal SavedInstance <br>
+[Pokemon API - 2 November 2023](PokemonAPI) Menghubungkan Aplikasi dengan API <br>
 
 ## Minggu 5  || 20 - 24 November 2023
-[NovelLab](NovelLabAPI) | Menghubungkan Aplikasi List Novel Dengan API
+[NovelLab - 20 November 2023](NovelLabAPI) | Menghubungkan Aplikasi List Novel Dengan API
