@@ -28,8 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
         benar.setVisibility(View.VISIBLE);
 
+        // Mengecek apakah savedInstance kosong
         if(savedInstanceState != null){
             boolean isVisible = savedInstanceState.getBoolean("isVisible");
+
+            // Menampilkan saved Instance jika saved Instance tidak kosong
             if(isVisible){
                 isClicked = isVisible;
                 keterangan = savedInstanceState.getString("bs");
@@ -65,7 +68,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
+        
+        // Memasukkan Ke Dalam SavedInstance ketika isClicked is true
         if(isClicked){
             outState.putString("bs", keterangan);
             outState.putBoolean("isVisible", true);
