@@ -75,21 +75,35 @@ public class NovelAdapter extends RecyclerView.Adapter<NovelAdapter.NovelViewHol
             @Override
             public void onResponse(JSONObject response) {
                 try {
-                    String description;
+                    String description, year, writer;
                     JSONArray items = response.getJSONArray("items");
                     for(int i = 0; i < items.length(); i++) {
                         JSONObject res = items.getJSONObject(i);
                         JSONObject info = res.getJSONObject("volumeInfo");
-                        Log.d("ApiError", info.getString("publishedDate").substring(0, 4));
+
                         String name = info.getString("title");
-                        String writer = info.getJSONArray("authors").getString(0);
+
+                        if (info.toString().contains("authors")) {
+                            writer = info.getJSONArray("authors").getString(0);
+                        } else if (info.toString().contains("publisher")) {
+                            writer = info.getString("publisher");
+                        } else {
+                            writer = "-";
+                        }
+
                         String image = info.getJSONObject("imageLinks").getString("thumbnail");
+
                         if (info.toString().contains("description")) {
                             description = info.getString("description");
                         } else {
                             description = "-";
                         }
-                        int year = Integer.valueOf(info.getString("publishedDate").substring(0, 4));
+
+                        if (info.toString().contains("publishedDate")) {
+                            year = info.getString("publishedDate").substring(0,4);
+                        } else {
+                            year = "-";
+                        }
 
                         novels.add(new Novel(
                                 name, writer, description, image, year
@@ -117,10 +131,16 @@ public class NovelAdapter extends RecyclerView.Adapter<NovelAdapter.NovelViewHol
 
     @Override
     public void onBindViewHolder(@NonNull NovelAdapter.NovelViewHolder holder, int position) {
+        String text;
         Novel current = novels.get(position);
-        holder.titleView.setText(current.getTitle());
+        if (current.getTitle().length() > 20 ){
+            text = current.getTitle().substring(0, 20) + "...";
+        } else {
+            text = current.getTitle();
+        }
+        holder.titleView.setText(text);
         holder.writerView.setText(current.getWriter());
-        holder.yearView.setText(Integer.toString(current.getYear()));
+        holder.yearView.setText(current.getYear());
         holder.imageView.loadUrl(current.getCover());
         holder.imageView.getSettings().setLoadWithOverviewMode(true);
         holder.imageView.getSettings().setUseWideViewPort(true);

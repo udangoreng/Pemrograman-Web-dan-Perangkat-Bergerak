@@ -2,10 +2,9 @@ package com.udangoreng.novellab;
 
 public class Novel {
 
-    private int cover, year;
-    private String title, writer, synopsis, img;
+    private String title, writer, synopsis, img, year;
 
-    public Novel (String title, String writer, String synopsis, String img, int year){
+    public Novel (String title, String writer, String synopsis, String img, String year){
         this.img = img;
         this.title = title;
         this.writer = writer;
@@ -29,7 +28,7 @@ public class Novel {
         return synopsis;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 }

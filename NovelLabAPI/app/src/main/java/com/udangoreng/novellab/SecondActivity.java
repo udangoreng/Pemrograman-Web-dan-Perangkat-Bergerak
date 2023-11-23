@@ -29,7 +29,7 @@ public class SecondActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
-        int year = intent.getIntExtra("year", 0);
+        String year = intent.getStringExtra("year");
         String writer = intent.getStringExtra("writer");
         String desc = intent.getStringExtra("desc");
         String cover = intent.getStringExtra("image");
@@ -37,7 +37,7 @@ public class SecondActivity extends AppCompatActivity {
         titleText.setText(title);
         writerText.setText(writer);
         descText.setText(desc);
-        yearText.setText(Integer.toString(year));
+        yearText.setText(year);
         imageCover.loadUrl(cover);
         imageCover.getSettings().setLoadWithOverviewMode(true);
         imageCover.getSettings().setUseWideViewPort(true);
