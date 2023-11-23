@@ -68,7 +68,7 @@ public class NovelAdapter extends RecyclerView.Adapter<NovelAdapter.NovelViewHol
         requestQueue = Volley.newRequestQueue(context);
         getAllBooks();
     }
-
+    //Get Data From API
     public void getAllBooks (){
         String url = "https://www.googleapis.com/books/v1/volumes?q=''&key=AIzaSyA6SaT23KNiiA6DnUfUQTvFeyAcQEkwnSU&maxResults=10";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -83,6 +83,7 @@ public class NovelAdapter extends RecyclerView.Adapter<NovelAdapter.NovelViewHol
 
                         String name = info.getString("title");
 
+                        // Check if data contains authors
                         if (info.toString().contains("authors")) {
                             writer = info.getJSONArray("authors").getString(0);
                         } else if (info.toString().contains("publisher")) {
