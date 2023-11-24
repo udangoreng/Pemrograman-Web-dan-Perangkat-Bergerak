@@ -1,5 +1,5 @@
 # Dokumentasi Pemrograman Web dan Perangkat Bergerak (PWPB)
-Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangkat Bergerak.
+Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangkat Bergerak oleh Divananda Ayu Sasikirana.
 
 ## Daftar Isi
 
