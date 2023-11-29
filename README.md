@@ -20,7 +20,7 @@ Merupakan Repository untuk dokumentasi pembelajaran Pemrograman Web dan Perangka
 
 ## Minggu 4 || 30 Oktober - 3 November 2023
 [Saved Instance - 30 Oktober 2023](DivanandaSavedInstance) | Mengenal SavedInstance <br>
-[Pokemon API - 2 November 2023](PokemonAPI) Menghubungkan Aplikasi dengan API <br>
+[Pokemon API - 2 November 2023](PokemonAPI) | Menghubungkan Aplikasi dengan API <br>
 
 ## Minggu 5  || 20 - 24 November 2023
 [NovelLab - 20 November 2023](NovelLabAPI) | Menghubungkan Aplikasi List Novel Dengan API
